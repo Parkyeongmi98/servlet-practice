@@ -21,8 +21,6 @@
 		<%=birthYear %> <br>
 		<%=gender %> <br>
 		<p>
-	
-		
 			<%=profile.replaceAll("/n", "<br>") %>
 		</p>
 		<% 

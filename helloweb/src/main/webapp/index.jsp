@@ -6,6 +6,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Hello World!!</h1>
+	<% for(int i = 0; i < 5; i++) { %>
+		<h1>Hello World!!</h1>
+	<% } %>
+	
+	<a href="/helloweb/hello?id=kickscar">인사하기</a>
 </body>
 </html>
