@@ -4,14 +4,15 @@
 	<artifactId>servlet-practice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.build.outputEncoding>UTF-8</project.build.outputEncoding>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
+	
 	<build>
-		<finalName>helloweb</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -20,8 +21,8 @@
 			</plugin>
 		</plugins>
 	</build>
+		
 	<modules>
-		<module>com.douzone</module>
-		<module>helloweb</module>
+	<module>helloweb</module>
 	</modules>
 </project>
