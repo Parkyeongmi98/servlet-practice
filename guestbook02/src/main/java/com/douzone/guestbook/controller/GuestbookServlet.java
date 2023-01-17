@@ -1,4 +1,4 @@
-package com.douzone.guestbook.controler;
+package com.douzone.guestbook.controller;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
