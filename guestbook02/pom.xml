@@ -38,7 +38,7 @@
 	</dependencies>
 	
 	<build>
-		<finalName>guestbook01</finalName>
+		<finalName>guestbook02</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
