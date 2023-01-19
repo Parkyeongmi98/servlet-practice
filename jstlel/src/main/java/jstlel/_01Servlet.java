@@ -27,6 +27,7 @@ public class _01Servlet extends HttpServlet {
 		request.setAttribute("bVal", bVal);
 		request.setAttribute("sVal", sVal);
 
+		// 객체
 		Object obj = null;
 		
 		UserVo vo = new UserVo();
@@ -43,8 +44,6 @@ public class _01Servlet extends HttpServlet {
 		map.put("sVal", sVal);
 
 		request.setAttribute("m", map);
-		
-		
 		
 		request.getRequestDispatcher("/WEB-INF/views/01.jsp").forward(request, response);
 	}
