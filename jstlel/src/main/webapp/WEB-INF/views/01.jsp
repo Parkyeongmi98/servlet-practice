@@ -28,10 +28,10 @@
 	${3*4+6/2 } <br>
 	${iVal + 10 } <br><br>
 	
-	<h3>관계연산</h3>
+	<h3>관계연산(결과는 true/false)</h3>
 	${iVal == 10 } <br>
 	${iVal < 5 } <br>
-	${obj == null } <br>
+	${obj == null } <br> 
 	${empty obj } <br>
 	${obj != null } <br>
 	${not empty obj } <br><br>
